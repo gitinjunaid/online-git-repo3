@@ -1,0 +1,14 @@
+https://www.nakivo.com/blog/most-useful-esxcli-esxi-shell-commands-vmware-environment/
+
+
+
+
+which esxcli
+   1 ls -l /sbin/esxcli
+   2 esxcli esxcli command list
+   3 esxcli hardware pci list | more
+   4 esxcli hardware cpu list
+   5 esxcli system stats installtime get
+   6 esxcli system snmp get
+   7 esxcli system welcomemsg set -m="Welcome to JUNAID's ESX! Press F2"
+   8 esxcli system welcomemsg get
